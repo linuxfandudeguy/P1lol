@@ -46,5 +46,9 @@ Once you have uninstalled it, your prompt should look like this:
 
 The P1lol prompt displays your Linux username, hostname, current time, current directory and current git branch.
 
+# licence
+
+mit
+
 
 
