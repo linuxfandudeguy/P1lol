@@ -44,5 +44,7 @@ Once you have uninstalled it, your prompt should look like this:
 
 ![Screenshot 2024-07-30 9 26 18 AM](https://github.com/user-attachments/assets/251ef523-b8b1-4fcc-a7d4-ea7738ece59e)
 
+The P1lol prompt displays your Linux username, hostname, current time, current directory and current git branch.
+
 
 
