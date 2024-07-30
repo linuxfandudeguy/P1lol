@@ -20,3 +20,22 @@ Once you are done run `source ~/.bashrc` or `source ~/.bashrc` or start a new te
 You should see the prompt:
 
 ![Screenshot 2024-07-30 9 20 58 AM](https://github.com/user-attachments/assets/9964d4a7-c7fc-45ec-980d-f6b99ab3b06c)
+
+If you don't like it you can delete it with this command:
+
+## Bash
+
+```bash
+TMP_FILE="/tmp/p1lol.sh"; CONFIG_FILE="$HOME/.bashrc"; [ -f "$TMP_FILE" ] && rm "$TMP_FILE" && echo "Removed $TMP_FILE."; grep -q "source $TMP_FILE" "$CONFIG_FILE" && sed -i "\|source $TMP_FILE|d" "$CONFIG_FILE" && echo "Removed sourcing from $CONFIG_FILE."; source "$CONFIG_FILE"; echo "Uninstallation done. You may enter a new terminal session or refresh your terminal."
+```
+## Zsh
+
+```bash
+TMP_FILE="/tmp/p1lol.sh"; CONFIG_FILE="$HOME/.zshrc"; [ -f "$TMP_FILE" ] && rm "$TMP_FILE" && echo "Removed $TMP_FILE."; grep -q "source $TMP_FILE" "$CONFIG_FILE" && sed -i "\|source $TMP_FILE|d" "$CONFIG_FILE" && echo "Removed sourcing from $CONFIG_FILE."; source "$CONFIG_FILE"; echo "Uninstallation done. You may enter a new terminal session or refresh your terminal."
+```
+Once you have uninstalled it, your prompt should look like this:
+
+![Screenshot 2024-07-30 9 26 18 AM](https://github.com/user-attachments/assets/251ef523-b8b1-4fcc-a7d4-ea7738ece59e)
+
+
+
