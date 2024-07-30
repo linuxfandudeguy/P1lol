@@ -23,8 +23,17 @@ install_script() {
         exit 1
     fi
     
+    # Verify the downloaded script (basic check)
+    if ! grep -q "#!/bin/bash" "$SCRIPT_FILE"; then
+        echo -e "${RED}Downloaded script does not appear to be a valid bash script.${RESET}"
+        exit 1
+    fi
+
     echo -e "${YELLOW}Script downloaded successfully.${RESET}"
     
+    # Make the script executable
+    chmod +x "$SCRIPT_FILE"
+
     # Add the script to ~/.bashrc if not already present
     if ! grep -q "p1lol.sh" "$BASHRC_FILE"; then
         echo -e "${YELLOW}Adding the script to ${BASHRC_FILE}...${RESET}"
