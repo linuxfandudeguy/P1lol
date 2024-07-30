@@ -1,4 +1,6 @@
 ![Screenshot 2024-07-30 9 28 33 AM](https://github.com/user-attachments/assets/62677d8e-38d4-4b77-93b0-2239dbe51ea8)
+
+
 ![Screenshot 2024-07-30 9 29 57 AM](https://github.com/user-attachments/assets/328346e5-3e5f-4e72-81ff-9cfc036793e9)
 
 P1lol is a prompt tool that makes your prompt in your terminal look way more visually appealing.
