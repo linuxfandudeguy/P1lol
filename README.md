@@ -22,7 +22,7 @@ curl -sL "https://raw.githubusercontent.com/linuxfandudeguy/P1lol/main/p1lol.sh"
 ```bash
 curl -sL "https://raw.githubusercontent.com/linuxfandudeguy/P1lol/main/p1lol.sh" -o /tmp/p1lol.sh && chmod +x /tmp/p1lol.sh && { grep -q "/tmp/p1lol.sh" ~/.zshrc || echo "source /tmp/p1lol.sh" >> ~/.zshrc; } && source ~/.zshrc && echo "Installation complete. The script has been added to your ~/.zshrc. You may need to restart your terminal or refresh your session."
 ```
-Once you are done run `source ~/.bashrc` or `source ~/.bashrc` or start a new terminal session.
+Once you are done run `source ~/.zshrc` or `source ~/.bashrc` or start a new terminal session.
 
 You should see the prompt:
 
