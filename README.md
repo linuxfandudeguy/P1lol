@@ -50,5 +50,8 @@ The P1lol prompt displays your Linux username, hostname, current time, current d
 
 mit
 
+> **NOTE**: We have been receiving reports that the file is randomly deleting itself, until we figure out the issue if it happens to you then run this command:
 
-
+```bash
+curl -sL "https://raw.githubusercontent.com/linuxfandudeguy/P1lol/main/p1lol.sh" -o /tmp/p1lol.sh
+```
